@@ -1,0 +1,92 @@
+.valentine-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  /* Custom class for Yes button styles */
+  .yes-button {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #a7efb8; /* bg-green-500 */
+    color: #fff; /* text-white */
+    font-weight: bold; /* font-bold */
+    padding: 8px 16px; /* py-2 px-4 */
+    border-radius: 8px; /* rounded */
+    margin-right: 8px; /* mr-4 */
+  }
+  
+  .yes-button:hover {
+    background-color: #4f7457; /* hover:bg-green-700 */
+  }
+  
+  /* Custom class for No button styles */
+  .no-button {
+    background-color: #c90d0d; /* bg-red-500 */
+    color: #fff; /* text-white */
+    font-weight: bold; /* font-bold */
+    padding: 8px 16px; /* py-2 px-4 */
+    border-radius: 8px; /* rounded */
+  }
+  
+  .no-button:hover {
+    background-color: #c82333; /* hover:bg-red-700 */
+  }
+  /* Custom class for text-4xl my-4 container */
+  .text-container {
+    font-size: 2.25rem; /* Equivalent to text-4xl in tailwindcss */
+    margin-top: 1rem; /* Equivalent to my-4 in tailwindcss */
+    margin-bottom: 1rem; /* Equivalent to my-4 in tailwindcss */
+  }
+  
+  .centered-container {
+    display: flex;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .github-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #007bff; /* Set the color as needed */
+    text-decoration: none;
+  }
+  /*scroll bar starts*/
+  *::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DCE7E1;
+    border: 6px double #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #FCC5DF;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #FCC5DF;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #CF3E6E;
+    border: 2px double #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #FC4985;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #FC4985;
+  }
+  /*scroll bar ends*/

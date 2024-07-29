@@ -1,0 +1,61 @@
+/* index.css */
+
+/* Center the container in the viewport */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+/* Style for the main content container */
+.valentine-container {
+  text-align: center;
+}
+
+/* Style for the text message */
+.text-container {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style for the 'Okay' button */
+.okay-button {
+  background-color: #ff69b4; /* Pink color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Style for the 'No' button */
+.no-button {
+  background-color: #e74c3c; /* Red color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Hover effect for buttons */
+.no-button:hover,
+.okay-button:hover {
+  opacity: 0.8;
+}
+
+/* Ensure images are responsive and styled properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide elements when needed (using JavaScript) */
+.hidden {
+  display: none;
+}
